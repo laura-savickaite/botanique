@@ -30,7 +30,7 @@ ul{display: flex;
 .card {background-color: cornsilk;
     width: 16%;
     height: 20%;
-    
+    margin: 50px 200px;
 }
 
 .rows {display: flex;
@@ -39,7 +39,10 @@ ul{display: flex;
 
 }
 
-.cardimage {width: 40px;
-    height: 40px;
+.cardimage {width: 100px;
+    height: 100px;
 
+}
+
+.rows {
 }

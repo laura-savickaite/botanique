@@ -33,7 +33,7 @@ ul{display: flex;
 
 .maincontent {background-color: rgb(238, 241, 238);
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     flex-direction: row;
     margin: 0 5% 0 5%;
@@ -47,9 +47,15 @@ ul{display: flex;
 .titrepage {
     color: rgb(62, 95, 65);
     transform: rotate(-90deg);
-    /* position: fixed; */
     font-size: 120px;
-    margin-left: 0px;
+    float: left;
+    width: 30vh;
+    margin-top: 50vh;
+}  
+.test {display: flex;
+    flex-wrap: wrap;
+    
+    
 }
 
 ::-webkit-scrollbar {
@@ -64,12 +70,15 @@ ul{display: flex;
     /* background-color: cornsilk; */
     /* deuxième valeur à modifier selon la taille de la carte */
     margin: 50px 60px;
-
-}
-
-.rows {display: flex;
+    display:flex;
     flex-direction: column;
+
 }
+
+
+/* .rows {display: flex;
+    flex-direction: column;
+} */
 
 .cardimage {width: 200px;
     height: 150px;

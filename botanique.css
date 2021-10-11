@@ -25,19 +25,24 @@ ul{display: flex;
     flex-direction: row;
     margin: 0 5% 0 5%;
     height: 90%;
+    width: 90%;
+    position: fixed;
+    overflow: scroll;
+
 }
 
 .card {background-color: cornsilk;
     width: 16%;
     height: 20%;
-    
+    margin: 50px 200px;
 }
 
 .rows {display: flex;
     flex-direction: column;
 }
 
-.cardimage {width: 40px;
-    height: 40px;
+.cardimage {width: 100px;
+    height: 150px;
 
 }
+

@@ -43,7 +43,13 @@ ul{display: flex;
     overflow: scroll;
     padding-top: 300px;
     overflow-x: hidden;
-
+}
+.titrepage {
+    color: rgb(62, 95, 65);
+    transform: rotate(-90deg);
+    /* position: fixed; */
+    font-size: 120px;
+    margin-left: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -76,54 +82,7 @@ ul{display: flex;
     font-size: 25px;
 
 }
-/* TITRE A RAJOUTER POUR LES LEGUMES ET ARBUSTES */
-.titrepagelegarbu {
-    color: rgb(62, 95, 65);
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 1;
-    margin-top: 20vw;
-    right: 120vh;
 
-}
-
-.titrepagelegarbu h1 {font-size: 130px;
-    text-align: left;
-    letter-spacing: 15px;
-
-}
-
-/* TITRE A RAJOUTER POUR LES FLEURS */
-
-.titrepagefleurs {
-    color: rgb(62, 95, 65);
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 1;
-    margin-top: 20vw;
-    right: 130vh;
-}
-
-.titrepagefleurs h1 {font-size: 130px;
-    text-align: left;
-    letter-spacing: 15px;
-}
-
-/* TITRE A RAJOUTER POUR PLANTES */
-
-.titrepageplantes {
-    color: rgb(62, 95, 65);
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 1;
-    margin-top: 20vw;
-    right: 125vh;
-}
-
-.titrepageplantes h1 {font-size: 130px;
-    text-align: left;
-    letter-spacing: 15px;
-}
 
 .p_card {font-family: 'PT Sans Narrow', sans-serif;
 

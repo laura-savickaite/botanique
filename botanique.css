@@ -7,7 +7,7 @@
 
 body {background-color: white;
     overflow: hidden;
-    height: 100vh;
+    height: 100vh; 
     width: 100%;
 }
 
@@ -19,9 +19,27 @@ ul{display: flex;
 }
 
 .maincontent {background-color: brown;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20% 0 20%;
+    flex-direction: row;
+    margin: 0 5% 0 5%;
+    height: 90%;
+}
+
+.card {background-color: cornsilk;
+    width: 16%;
+    height: 20%;
+    
+}
+
+.rows {display: flex;
+    flex-direction: column;
+   
+
+}
+
+.cardimage {width: 40px;
+    height: 40px;
+
 }

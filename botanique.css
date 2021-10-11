@@ -35,8 +35,6 @@ ul{display: flex;
 
 .rows {display: flex;
     flex-direction: column;
-   
-
 }
 
 .cardimage {width: 40px;

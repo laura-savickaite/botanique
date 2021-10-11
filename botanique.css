@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=PT+Sans+Narrow&display=swap');
+
 *{padding: O;
     margin: 0;
     text-decoration: none;
@@ -16,9 +18,13 @@ ul{display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+    color: rgb(83, 110, 82);
 }
 
-.maincontent {background-color: brown;
+.maincontent {background-color: rgb(238, 241, 238);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +34,56 @@ ul{display: flex;
     width: 90%;
     position: fixed;
     overflow: scroll;
+    padding-top: 300px;
+    overflow-x: hidden;
 
 }
 
-.card {background-color: cornsilk;
-    width: 16%;
-    height: 20%;
-    margin: 50px 200px;
+::-webkit-scrollbar {
+    width: 6px;
+  }
+::-webkit-scrollbar-thumb {
+    background: #A1AD9F;
+    border-radius: 6px;
+  }
+
+
+
+.card {
+    /* background-color: cornsilk; */
+    /* deuxième valeur à modifier selon la taille de la carte */
+    margin: 50px 60px;
+
 }
 
 .rows {display: flex;
     flex-direction: column;
 }
 
-.cardimage {width: 100px;
+.cardimage {width: 200px;
     height: 150px;
+    border-radius: 5px;
+} 
+
+.légende {font-family: 'Inconsolata', monospace;
+    text-align: center;
+    color: rgb(83, 110, 82);
+    font-size: 25px;
 
 }
 
+.titrepage {
+    color: rgb(62, 95, 65);
+    transform: rotate(-90deg);
+    position: absolute;
+    z-index: 1;
+}
+
+.titrepage h1 {font-size: 70px;
+    text-align: left;
+    
+}
+
+.p_card {font-family: 'PT Sans Narrow', sans-serif;
+
+}

@@ -58,7 +58,11 @@ ul{
     float: left;
     width: 30vh;
     margin-top: 50vh;
-}  
+} 
+.titre_arbustes {
+    margin-top: 750px
+} 
+
 .test {
     display: flex;
     flex-wrap: wrap;  

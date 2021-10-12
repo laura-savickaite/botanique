@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=PT+Sans+Narrow&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -61,9 +59,7 @@ ul{
 }  
 .test {
     display: flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;  
 }
 
 ::-webkit-scrollbar {
@@ -109,6 +105,64 @@ footer{
     color: rgb(121, 119, 119);
 }
 
+.maincontentaccueil {
+    background-color: rgb(238, 241, 238);
+    margin: 0 5% 0 5%;
+    height: 80%;
+    width: 90%;
+    position: fixed;
+    overflow: scroll;
+    padding-top: 300px;
+    overflow-x: hidden;
+}
+
+.accueilpres {display: flex;
+    flex-direction: row;
+}
+.imgaccueil {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: -200px; 
+}
+
+.titrepage2 {
+    color: rgb(62, 95, 65);
+    transform: rotate(-90deg);
+    font-size: 120px;
+    width: 20vh;
+    position: absolute;
+    z-index: 10;
+    margin-top: -600px;
+    margin-left: 300px;
+} 
+
+
+.test2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.imgaccueil2 {
+    height: 500px;
+    margin-left: 40px;
+    
+}
+
+.texteaccueil {
+    margin-right: 100px;
+    text-align: justify;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(45, 46, 44);  
+}
+
 .pres_content {
     display: flex;
     justify-content: space-around;
@@ -137,12 +191,4 @@ footer{
 
 .pres_right-content>p {
     margin-top: 9px;
-}
-
-.titre_plantes {
-    margin-top: 550px;
-}
-
-.titre_legumes {
-    margin-top: 620px;
 }

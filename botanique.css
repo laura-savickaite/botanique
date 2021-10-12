@@ -61,9 +61,7 @@ ul{
 }  
 .test {
     display: flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;  
 }
 
 ::-webkit-scrollbar {
@@ -145,16 +143,25 @@ footer{
 
 .test2{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 300px;
     justify-content: center;
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 .imgaccueil2 {
     height: 500px;
+    margin-left: 40px;
+    
+}
 
+.texteaccueil {
+    margin-right: 100px;
+    text-align: justify;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(45, 46, 44);  
 }
 

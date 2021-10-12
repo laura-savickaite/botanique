@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=PT+Sans+Narrow&display=swap');
 
-*{padding: O;
+*{
+    padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
 }
 
-body {background-color: white;
+body {
+    background-color: white;
     overflow: hidden;
     height: 100vh; 
     width: 100%;
 }
 
-ul{display: flex;
+ul{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -24,14 +27,18 @@ ul{display: flex;
     padding: 1% 0;
 }
 
-.navlink {color: rgb(43, 77, 51);
+.navlink {
+    color: rgb(43, 77, 51);
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
-.navlink:hover {color: rgb(201, 201, 201);}
+.navlink:hover {
+    color: rgb(201, 201, 201);
+}
 
-.maincontent {background-color: rgb(238, 241, 238);
+.maincontent {
+    background-color: rgb(238, 241, 238);
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -52,7 +59,8 @@ ul{display: flex;
     width: 30vh;
     margin-top: 50vh;
 }  
-.test {display: flex;
+.test {
+    display: flex;
     flex-wrap: wrap;
     
     
@@ -72,35 +80,31 @@ ul{display: flex;
     margin: 50px 60px;
     display:flex;
     flex-direction: column;
-
 }
 
 
-/* .rows {display: flex;
-    flex-direction: column;
-} */
-
-.cardimage {width: 200px;
+.cardimage {
+    width: 200px;
     height: 150px;
     border-radius: 5px;
 } 
 
-.légende {font-family: 'Inconsolata', monospace;
+.légende {
+    font-family: 'Inconsolata', monospace;
     text-align: center;
     color: rgb(83, 110, 82);
     font-size: 25px;
-
 }
 
 
-.p_card {font-family: 'PT Sans Narrow', sans-serif;
-
+.p_card {
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
-footer{position: absolute;
+footer{
+    position: absolute;
     bottom: 20px;
     right:50px;
     font-family: 'Rajdhani', sans-serif;
     color: rgb(121, 119, 119);
-
 }

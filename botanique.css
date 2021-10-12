@@ -108,3 +108,53 @@ footer{
     font-family: 'Rajdhani', sans-serif;
     color: rgb(121, 119, 119);
 }
+
+.maincontentaccueil {
+    background-color: rgb(238, 241, 238);
+    margin: 0 5% 0 5%;
+    height: 80%;
+    width: 90%;
+    position: fixed;
+    overflow: scroll;
+    padding-top: 300px;
+    overflow-x: hidden;
+}
+
+.accueilpres {display: flex;
+    flex-direction: row;
+}
+.imgaccueil {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: -200px; 
+}
+
+.titrepage2 {
+    color: rgb(62, 95, 65);
+    transform: rotate(-90deg);
+    font-size: 120px;
+    width: 20vh;
+    position: absolute;
+    z-index: 10;
+    margin-top: -600px;
+    margin-left: 300px;
+} 
+
+
+.test2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imgaccueil2 {
+    height: 500px;
+
+}
+

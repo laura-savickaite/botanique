@@ -108,3 +108,33 @@ footer{
     font-family: 'Rajdhani', sans-serif;
     color: rgb(121, 119, 119);
 }
+
+.pres_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pres_image {
+    height: 25%;
+    width: 25%;
+    margin-bottom: 200px;
+    /* margin-right: 150px; */
+}
+
+.pres_right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 50%;
+}
+
+.pres_right-content>h2 {
+    color: rgb(62, 95, 65);
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.pres_right-content>p {
+    margin-top: 9px;
+}

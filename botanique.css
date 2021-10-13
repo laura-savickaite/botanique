@@ -59,7 +59,7 @@ ul{
 }  
 .test {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
     margin-left: 2vh;
 }
 
@@ -77,7 +77,8 @@ ul{
     margin: 50px 60px;
     display:flex;
     flex-direction: column;
-    transform: translate(50px, 50px);
+    flex-wrap: wrap;
+    transform: translate(50px,50px);
 }
 
 
@@ -85,8 +86,8 @@ ul{
     width: 200px;
     height: 150px;
     border-radius: 5px;
-    max-height: 10%;
     max-width: 10%;
+    max-height: 10%;
     transform: scale(10);
 } 
 
@@ -95,13 +96,13 @@ ul{
     text-align: center;
     color: rgb(83, 110, 82);
     font-size: 25px;
-    transform: translate(-90px, 100px);
+    transform: translate(-90px,100px);
 }
 
-
-.p_card {
-    font-family: 'PT Sans Narrow', sans-serif;
+.légende:hover {
+    color: rgb(201, 201, 201);
 }
+
 
 footer{
     position: absolute;
